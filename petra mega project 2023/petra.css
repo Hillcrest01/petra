@@ -1,0 +1,192 @@
+body{
+background-image: url(images/im4.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0%;
+padding-left: 100px;
+padding-right: 100px;
+}
+.head{
+    background-color: antiquewhite;
+    margin-top: 0px;
+}
+.image4{
+    height: 50px;
+}
+.header{
+    color: brown;
+}
+.header a{
+    text-decoration: none;
+    color: brown;
+}
+.marquee{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+}
+.list{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.list li{
+    text-decoration: none;
+    display: inline;
+    padding: 30px;
+    color: black;
+    margin-top: 0px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li a:hover{
+    text-decoration: underline;
+}
+.search{
+    margin-left: 200px;
+    height: 27px;
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+}
+.account{
+    height: 400px;
+    background-color: azure;
+    width: 400px;
+    justify-content: right;
+    margin-left: 1400px;
+    border-radius: 10px;
+}
+.butaccount{
+    margin-left: 200px;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    background-color: rgb(4, 156, 245);
+}
+.butaccount a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.butaccount:hover{
+    background-color: rgb(8, 241, 203);
+    transition-duration: 1s;
+}
+.butaccount a:hover{
+    text-decoration: underline;
+}
+.butaccount:active{
+    background-color: rgb(231, 217, 19);
+    transition-duration: 1ms;
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    height: 600px;
+    width: 600px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    justify-content: space-around;
+}
+.firstimage{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    /*filter: blur(3px);*/
+}
+.firstnews{
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.firstmore{
+    display: block;
+    margin: 20px;
+    margin-left: 230px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(31, 229, 243);
+    border: none;
+    border-radius: 5px;
+}
+.firstmore a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 13px;
+}
+.firstmore:hover{
+    background-color: rgb(20, 223, 37);
+}
+.firstmore a:hover{
+    text-decoration: underline;
+}
+.firstmore:active{
+background-color: bisque;
+}
+.second{
+    height: 600px;
+    width: 600px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.secondimage{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+.secondnews{
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.secondmore{
+    display: block;
+    margin: 20px;
+    margin-left: 230px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(31, 229, 243);
+    border: none;
+    border-radius: 5px;
+}
+.secondmore a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 13px;
+}
+.secondmore:hover{
+    background-color: rgb(20, 223, 37);
+}
+.secondmore a:hover{
+    text-decoration: underline;
+}
+.firstmore:active{
+background-color: bisque;
+}
+.flex{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns:100px ;
+    background-color: yellow;
+}
+.flexbox1{
+    grid-row: 1/4;
+    grid-column: 1/6;
+}
